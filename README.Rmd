@@ -1,0 +1,39 @@
+---
+title: "Course project"
+author: "Abhishek Gupta"
+date: "Saturday, October 24, 2015"
+output: html_document
+---
+
+Steps in the R script
+
+1. read X_test, X_train datasets and merging the two datasets in dataframe 'xmerge'
+
+
+2. read name of the variable from feature.txt file and add the names as column headers in 'xmerge'
+
+
+3. adding subject IDs together from subject_text and subject_train files
+
+
+4. select variables containing mean and standard deviation from xmerge and store in dataframe 'mean_std_data'
+
+
+5. reading y_test and y_train datasets adding the two datasets in row-wise in dataframe 'ymerge' 
+
+
+6. reading activity labels and replace ymerge variables with activity descriptions
+
+
+7. adding column in mean_std_data with activity descriptions
+
+
+8. grouping data by activity and studentID, and averaging each variable
+
+9. return final data file
+
+10. writing data to a txt file
+
+
+
+
